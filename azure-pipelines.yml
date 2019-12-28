@@ -11,6 +11,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    cd gatsby-starter-default
     npm install
     npm test
   displayName: 'NPM install and test'
